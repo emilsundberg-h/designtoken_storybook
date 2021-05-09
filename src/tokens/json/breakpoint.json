@@ -1,0 +1,16 @@
+{
+  "sl_breakpoint": {
+    "largeDesktops": {
+      "value": "1175px"
+    },
+    "defaultDesktops": {
+      "value": "1024px"
+    },
+    "tablet": {
+      "value": "768px"
+    },
+    "mobile": {
+      "value": "576px"
+    }
+  }
+}

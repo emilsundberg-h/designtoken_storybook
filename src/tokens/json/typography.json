@@ -1,0 +1,208 @@
+{
+  "sl_tg": {
+    "headingXxl": {
+      "font": {
+        "value": " 700 48px/60px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "48px"
+      },
+      "lineHeight": {
+        "value": "60px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headingXl": {
+      "font": {
+        "value": " 700 40px/48px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "40px"
+      },
+      "lineHeight": {
+        "value": "48px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headingL": {
+      "font": {
+        "value": " 700 32px/40px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "32px"
+      },
+      "lineHeight": {
+        "value": "40px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headingM": {
+      "font": {
+        "value": " 700 24px/32px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "24px"
+      },
+      "lineHeight": {
+        "value": "32px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headingS": {
+      "font": {
+        "value": " 700 20px/24px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "20px"
+      },
+      "lineHeight": {
+        "value": "24px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headingXs": {
+      "font": {
+        "value": " 700 16px/20px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "16px"
+      },
+      "lineHeight": {
+        "value": "20px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "bodyXs": {
+      "font": {
+        "value": " 400 14px/20px 'SL Gothic Text 2'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Text 2'"
+      },
+      "fontSize": {
+        "value": "14px"
+      },
+      "lineHeight": {
+        "value": "20px"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "bodyS": {
+      "font": {
+        "value": " 400 16px/24px 'SL Gothic Text 2'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Text 2'"
+      },
+      "fontSize": {
+        "value": "16px"
+      },
+      "lineHeight": {
+        "value": "24px"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "bodyM": {
+      "font": {
+        "value": " 400 18px/28px 'SL Gothic Text 2'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Text 2'"
+      },
+      "fontSize": {
+        "value": "18px"
+      },
+      "lineHeight": {
+        "value": "28px"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "labelL": {
+      "font": {
+        "value": " 700 16px/20px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "16px"
+      },
+      "lineHeight": {
+        "value": "20px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "labelM": {
+      "font": {
+        "value": " 700 14px/16px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "14px"
+      },
+      "lineHeight": {
+        "value": "16px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "caption": {
+      "font": {
+        "value": " 400 14px/16px 'SL Gothic Text 2'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Text 2'"
+      },
+      "fontSize": {
+        "value": "14px"
+      },
+      "lineHeight": {
+        "value": "16px"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    }
+  }
+}
