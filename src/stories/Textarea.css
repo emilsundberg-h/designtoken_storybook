@@ -1,0 +1,41 @@
+.Wrapper {
+  width: 400px;
+}
+
+.HeadingDiv {
+  margin: var(--sl-space-xxs);
+  display: flex;
+  justify-content: center;
+}
+.Heading {
+  font: var(--sl-tg-heading-s-font);
+
+  color: var(--sl-color-neutral-800);
+}
+
+.TextArea {
+  width: 100%;
+  height: 10rem;
+  border: 0.15rem solid var(--sl-color-neutral-800);
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  resize: none;
+  padding: 0.5rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  line-height: 0.8rem;
+  font-size: 0.65rem;
+}
+
+.TextArea:focus {
+  outline: none;
+}
+.buttonDiv {
+  margin: var(--sl-space-xs);
+  display: flex;
+  justify-content: flex-end;
+}
+::placeholder {
+  font: var(--sl-tg-body-s-font);
+}

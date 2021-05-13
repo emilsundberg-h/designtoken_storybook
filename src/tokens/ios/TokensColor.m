@@ -3,7 +3,7 @@
 // TokensColor.m
 //
 // Do not edit directly
-// Generated on Sun, 09 May 2021 06:12:25 GMT
+// Generated on Wed, 12 May 2021 21:34:14 GMT
 //
 
 #import "TokensColor.h"

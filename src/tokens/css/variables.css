@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 09 May 2021 06:12:25 GMT
+ * Generated on Wed, 12 May 2021 21:34:13 GMT
  */
 
 :root {
@@ -14,8 +14,8 @@
   --sl-color-primary-500: #0a47c2;
   --sl-color-primary-400: #2870f0;
   --sl-color-primary-300: #7ab4ff;
-  --sl-color-primary-200: #afdff9;
   --sl-color-primary-100: #f3f8fc;
+  --sl-color-primary-200: #afdff9;
   --sl-color-neutral-900: #000000;
   --sl-color-neutral-800: #12151a;
   --sl-color-neutral-700: #20252c;
@@ -61,11 +61,7 @@
   --sl-space-l: 40px;
   --sl-space-xl: 48px;
   --sl-space-xxl: 64px;
-  --sl-tg-heading-xxl-font:  700 48px/60px 'SL Gothic Display';
-  --sl-tg-heading-xxl-font-family:  'SL Gothic Display';
-  --sl-tg-heading-xxl-font-size: 48px;
-  --sl-tg-heading-xxl-line-height: 60px;
-  --sl-tg-heading-xxl-font-weight: 700;
+  --sl-space-heading-xxl: 188px;
   --sl-tg-heading-xl-font:  700 40px/48px 'SL Gothic Display';
   --sl-tg-heading-xl-font-family:  'SL Gothic Display';
   --sl-tg-heading-xl-font-size: 40px;
@@ -121,4 +117,9 @@
   --sl-tg-caption-font-size: 14px;
   --sl-tg-caption-line-height: 16px;
   --sl-tg-caption-font-weight: 400;
+  --sl-tg-heading-xxl-font:  700 48px/60px 'SL Gothic Display';
+  --sl-tg-heading-xxl-font-family:  'SL Gothic Display';
+  --sl-tg-heading-xxl-font-size: 48px;
+  --sl-tg-heading-xxl-line-height: 60px;
+  --sl-tg-heading-xxl-font-weight: 700;
 }

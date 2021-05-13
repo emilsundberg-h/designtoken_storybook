@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-a11y": "^6.2.9",
+    "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "create-index": "^2.6.0",
+    "figma-api-exporter": "0.0.2",
     "postcss": "^8.2.13",
     "postcss-cli": "^8.3.1",
     "postcss-custom-properties": "^11.0.0",

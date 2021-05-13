@@ -20,6 +20,9 @@
     },
     "xxl": {
       "value": "64px"
+    },
+    "headingXxl": {
+      "value": "188px"
     }
   }
 }

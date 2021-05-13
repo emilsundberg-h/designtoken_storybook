@@ -22,7 +22,7 @@
 }
 
 .TgNameBorder {
-  width: 118px;
+  width: 140px;
   height: 20px;
   border: 2px solid var(--sl-color-neutral-700);
   border-radius: var(--sl-border-radius-small);

@@ -22,7 +22,7 @@ function Typography() {
           {listItem.name}
         </p>
         <div className="TgNameBorder">
-          <p className="TgName">$space-{listItem.name}</p>
+          <p className="TgName">$space-{listItem.name}-font</p>
         </div>
       </div>
     );

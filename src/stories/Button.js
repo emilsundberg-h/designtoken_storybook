@@ -5,7 +5,15 @@ import "./button.css";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export const Button = ({
+  primary,
+  backgroundColor,
+  size,
+  label,
+  ariaLabel,
+  color,
+  ...props
+}) => {
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
@@ -35,7 +43,14 @@ Button.propTypes = {
   /**
    * How large should the button be?
    */
-  size: PropTypes.oneOf(["small", "medium", "large"]),
+  size: PropTypes.oneOf([
+    "small",
+    "medium",
+    "large",
+    "accessible",
+    "inaccessible",
+    "deuteranopia",
+  ]),
   /**
    * Button contents
    */

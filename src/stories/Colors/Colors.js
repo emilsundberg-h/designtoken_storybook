@@ -23,8 +23,10 @@ function Colors() {
     return (
       <div className="ColorDiv">
         <div style={style}></div>
-        <div className="ColorNameBorder">
-          <p className="ColorName">$color-{listItem.name}</p>
+        <div className="ColorNameBorder" aria-label={listItem.value}>
+          <p className="ColorName" aria-label={listItem.name}>
+            $color-{listItem.name}
+          </p>
         </div>
       </div>
     );

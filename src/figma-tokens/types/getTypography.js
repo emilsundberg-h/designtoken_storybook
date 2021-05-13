@@ -12,7 +12,7 @@ const getTypography = (layerName, stylesArtboard) => {
     } = element.children[0].style;
 
     const tokens = {
-      [camelCase(name)]: {
+      [name]: {
         font: {
           value: ` ${fontWeight} ${fontSize}px/${Math.floor(
             lineHeightPx

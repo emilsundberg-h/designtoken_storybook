@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 09 May 2021 06:12:25 GMT
+ * Generated on Wed, 12 May 2021 21:34:13 GMT
  */
 
 export const SlBorderRadiusSmall = "4px";
@@ -13,8 +13,8 @@ export const SlBreakpointMobile = "576px";
 export const SlColorPrimary500 = "#0a47c2";
 export const SlColorPrimary400 = "#2870f0";
 export const SlColorPrimary300 = "#7ab4ff";
-export const SlColorPrimary200 = "#afdff9";
 export const SlColorPrimary100 = "#f3f8fc";
+export const SlColorPrimary200 = "#afdff9";
 export const SlColorNeutral900 = "#000000";
 export const SlColorNeutral800 = "#12151a";
 export const SlColorNeutral700 = "#20252c";
@@ -60,11 +60,7 @@ export const SlSpaceM = "32px";
 export const SlSpaceL = "40px";
 export const SlSpaceXl = "48px";
 export const SlSpaceXxl = "64px";
-export const SlTgHeadingXxlFont = " 700 48px/60px 'SL Gothic Display'";
-export const SlTgHeadingXxlFontFamily = " 'SL Gothic Display'";
-export const SlTgHeadingXxlFontSize = "48px";
-export const SlTgHeadingXxlLineHeight = "60px";
-export const SlTgHeadingXxlFontWeight = 700;
+export const SlSpaceHeadingXxl = "188px";
 export const SlTgHeadingXlFont = " 700 40px/48px 'SL Gothic Display'";
 export const SlTgHeadingXlFontFamily = " 'SL Gothic Display'";
 export const SlTgHeadingXlFontSize = "40px";
@@ -120,3 +116,8 @@ export const SlTgCaptionFontFamily = " 'SL Gothic Text 2'";
 export const SlTgCaptionFontSize = "14px";
 export const SlTgCaptionLineHeight = "16px";
 export const SlTgCaptionFontWeight = 400;
+export const SlTgHeadingXxlFont = " 700 48px/60px 'SL Gothic Display'";
+export const SlTgHeadingXxlFontFamily = " 'SL Gothic Display'";
+export const SlTgHeadingXxlFontSize = "48px";
+export const SlTgHeadingXxlLineHeight = "60px";
+export const SlTgHeadingXxlFontWeight = 700;
