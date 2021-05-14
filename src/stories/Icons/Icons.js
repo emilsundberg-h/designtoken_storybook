@@ -14,6 +14,7 @@ function App() {
       <Icon name="ticket" size={100} />
       <Icon name="sign-language" size={100} />
       <Icon name="search" size={100} />
+      <Icon name="emoji-anrgy" size={100} />
     </div>
   );
 }

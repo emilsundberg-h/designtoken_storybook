@@ -18,7 +18,7 @@
   height: 10rem;
   border: 0.15rem solid var(--sl-color-neutral-800);
   box-sizing: border-box;
-  border-radius: 0.3rem;
+  border-radius: var(--sl-border-radius-small);
   margin-top: 0.5rem;
   resize: none;
   padding: 0.5rem;

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../Button";
 import "./Textarea.css";
-import { Primary } from "./Button.stories";
-import Icon from "../../src/Icons.js";
+import { Primary } from "../Button.stories";
+import Icon from "../../Icons.js";
 
 const Textarea = (props) => {
   const [value, setValue] = useState(props.name);
@@ -14,13 +14,12 @@ const Textarea = (props) => {
   return (
     <div className="Wrapper">
       <div className="HeadingDiv">
-        <h2 className="Heading">Berätta mer om din upplevelse</h2>
+        <h2 className="Heading">Lämna gärna en kommentar</h2>
         <Icon name="heart" size={21} />
       </div>
       <label>
         <textarea
           className="TextArea"
-          placeholder="Lämna gärna en kommentar"
           key=""
           name="comment"
           value={value}
@@ -30,9 +29,7 @@ const Textarea = (props) => {
         />
       </label>
       <div className="buttonDiv">
-        <Primary primary={true} label={"Skicka"}>
-          Skicka
-        </Primary>
+        <Primary primary={true} label={"Skicka"} />
       </div>
     </div>
   );

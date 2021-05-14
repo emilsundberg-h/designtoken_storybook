@@ -49,7 +49,6 @@ Button.propTypes = {
     "large",
     "accessible",
     "inaccessible",
-    "deuteranopia",
   ]),
   /**
    * Button contents

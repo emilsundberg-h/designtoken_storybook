@@ -48,11 +48,3 @@ Inaccessible.args = {
   label: "Inaccessible button",
   ariaLabel: "Nothing happens when you click this button",
 };
-export const Deuteranopia = Template.bind({});
-Deuteranopia.args = {
-  primary: false,
-  backgroundColor: "#fe2712",
-  color: "#66b032",
-  label: "Deuteranopia button",
-  ariaLabel: "Nothing happens when you click this button",
-};

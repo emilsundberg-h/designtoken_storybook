@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 May 2021 21:34:13 GMT
+ * Generated on Fri, 14 May 2021 08:40:14 GMT
  */
 
 export const SlBorderRadiusSmall = "4px";
@@ -45,6 +45,7 @@ export const SlColorTramSparvagcity = "#878a83";
 export const SlColorTramTvarbanan = "#d77d00";
 export const SlColorRailPendeltag = "#ec619f";
 export const SlColorBoat = "#009ee2";
+export const SlColorNormalPlumRed = "#a7194b";
 export const SlElevationDark100 = "0px 2px 4px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)";
 export const SlElevationDark200 = "0px 4px 8px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)";
 export const SlElevationDark300 = "0px 8px 16px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)";
@@ -60,7 +61,6 @@ export const SlSpaceM = "32px";
 export const SlSpaceL = "40px";
 export const SlSpaceXl = "48px";
 export const SlSpaceXxl = "64px";
-export const SlSpaceHeadingXxl = "188px";
 export const SlTgHeadingXlFont = " 700 40px/48px 'SL Gothic Display'";
 export const SlTgHeadingXlFontFamily = " 'SL Gothic Display'";
 export const SlTgHeadingXlFontSize = "40px";

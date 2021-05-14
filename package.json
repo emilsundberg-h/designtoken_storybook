@@ -29,7 +29,8 @@
     "build-storybook": "build-storybook -s public",
     "tokens": "npm run tokens:api && npm run tokens:build",
     "tokens:api": "bin/figma-tokens",
-    "tokens:build": "style-dictionary build"
+    "tokens:build": "style-dictionary build",
+    "icons": "node Applertypo.js"
   },
   "eslintConfig": {
     "extends": [

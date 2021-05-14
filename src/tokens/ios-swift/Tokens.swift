@@ -3,7 +3,7 @@
 // Tokens.swift
 //
 // Do not edit directly
-// Generated on Wed, 12 May 2021 21:34:14 GMT
+// Generated on Fri, 14 May 2021 08:40:14 GMT
 //
 
 
@@ -36,6 +36,7 @@ public class Tokens {
     public static let slColorNeutral700 = #20252c
     public static let slColorNeutral800 = #12151a
     public static let slColorNeutral900 = #000000
+    public static let slColorNormalPlumRed = #a7194b
     public static let slColorPrimary100 = #f3f8fc
     public static let slColorPrimary200 = #afdff9
     public static let slColorPrimary300 = #7ab4ff
@@ -60,7 +61,6 @@ public class Tokens {
     public static let slElevationLight200 = 0px 4px 8px rgba(0.1568627506494522, 0.20000000298023224, 0.20000000298023224, 0.10000000149011612)
     public static let slElevationLight300 = 0px 8px 16px rgba(0.1568627506494522, 0.20000000298023224, 0.20000000298023224, 0.10000000149011612)
     public static let slElevationLight400 = 0px 16px 32px rgba(0.1568627506494522, 0.20000000298023224, 0.20000000298023224, 0.10000000149011612)
-    public static let slSpaceHeadingXxl = 188px
     public static let slSpaceL = 40px
     public static let slSpaceM = 32px
     public static let slSpaceS = 24px

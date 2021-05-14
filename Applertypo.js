@@ -1,16 +1,15 @@
-// const { FIGMA_APIKEY, FIGMA_ID } = "../figma.config.json";
+const figma = require("./figma.config.json");
+
 const { writeIndex } = require("create-index");
 const path = require("path");
 
 const figmaApiExporter = require("figma-api-exporter").default;
 
-const exporter = figmaApiExporter(
-  "183589-d31110bf-5de6-40a5-a1cc-85a8432fa216"
-);
+const exporter = figmaApiExporter(figma.FIGMA_APIKEY);
 
 exporter
   .getSvgs({
-    fileId: "XPQmqjdEEZHw3x43p1HND5",
+    fileId: figma.FIGMA_ID,
     canvas: "Icons",
   })
   .then(async (svgsData) => {
