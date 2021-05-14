@@ -1,17 +1,9 @@
-// import React from "react";
+import React from "react";
+import Icons from "./Icons";
 
-// import * as allSvgIcons from "../../Icons";
+export default {
+  title: "Icons",
+  component: Icons,
+};
 
-// const allSvgIcons = () => {
-// const icons = Objet.values(Icons);
-// return (
-//      icons.map(IconComponent => <IconComponent width={60} bg={"black"} color={"white"} />)
-// }
-
-// // import * as Icons from '../../Icons'
-
-// // const AllIcons = () => {
-// // const icons = Objet.values(Icons);
-// // return (
-// //      icons.map(IconComponent => <IconComponent width={60} bg={"black"} color={"white"} />)
-// // }
+export const icons = () => <Icons>Space</Icons>;
