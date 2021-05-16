@@ -12,7 +12,7 @@ function Colors() {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const ColorListed = listItems.map((listItem) => {
     const style = {
       width: "400px",
       height: "247px",
@@ -34,7 +34,7 @@ function Colors() {
 
   return (
     <div>
-      <div className="ColorFlex">{Arendal}</div>
+      <div className="ColorFlex">{ColorListed}</div>
     </div>
   );
 }

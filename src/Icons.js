@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const Icon = ({ name, size = 16, fill = "#000" }) => {
+const Icon = ({ name, size = 16 }) => {
   const ImportedIconRef = useRef(null);
   const [loading, setLoading] = useState(false);
 
@@ -23,7 +23,7 @@ const Icon = ({ name, size = 16, fill = "#000" }) => {
 
   if (!loading && ImportedIconRef.current) {
     const { current: ImportedIcon } = ImportedIconRef;
-    return <ImportedIcon width={size} height={size} color={fill} />;
+    return <ImportedIcon width={size} height={size} />;
   }
 
   return null;
