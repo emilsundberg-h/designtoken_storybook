@@ -6,7 +6,7 @@ export function cli() {
   fs.access(path, fs.F_OK, (err) => {
     if (err) {
       throw new Error(
-        "\x1b[31m\n\n Config file was not found!\n\nPlease, create a `figma.config.json` in the root folder with the FIGMA_APIKEY and FIGMA_ID keys\n\n"
+        "\x1b[31m\n\n Config file was not found!\n\nPlease, create a `figma.config.json`. Look at `template.figma.config`.\n\n"
       );
     }
     fs.readFile(path, "utf8", (err, data) => {

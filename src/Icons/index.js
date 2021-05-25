@@ -1,9 +1,22 @@
 // @create-index
 
-export { default as SL_Black } from './SL_Black.svg';
-export { default as SL_Blue } from './SL_Blue.svg';
+export { default as Airport } from './Airport.svg';
+export { default as Bike } from './Bike.svg';
+export { default as Boat } from './Boat.svg';
+export { default as Bus } from './Bus.svg';
+export { default as Disability } from './Disability.svg';
+export { default as Elevator } from './Elevator.svg';
+export { default as Escalator } from './Escalator.svg';
+export { default as Metro } from './Metro.svg';
+export { default as Parking } from './Parking.svg';
+export { default as Scooter } from './Scooter.svg';
+export { default as Stairs } from './Stairs.svg';
+export { default as Train } from './Train.svg';
+export { default as Walk } from './Walk.svg';
+export { default as abra } from './abra.svg';
 export { default as accessibility } from './accessibility.svg';
 export { default as add } from './add.svg';
+export { default as arro } from './arro.svg';
 export { default as attatch } from './attatch.svg';
 export { default as bell } from './bell.svg';
 export { default as calendar } from './calendar.svg';
@@ -51,6 +64,7 @@ export { default as select } from './select.svg';
 export { default as settings } from './settings.svg';
 export { default as share } from './share.svg';
 export { default as sl } from './sl.svg';
+export { default as sl_blue } from './sl_blue.svg';
 export { default as subtract } from './subtract.svg';
 export { default as swap } from './swap.svg';
 export { default as ticket } from './ticket.svg';

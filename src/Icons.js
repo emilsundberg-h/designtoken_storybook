@@ -9,7 +9,7 @@ const Icon = ({ name, size = 16 }) => {
     const importIcon = async () => {
       try {
         const { default: namedImport } = await import(
-          `!!@svgr/webpack?-svgo,+titleProp,+ref!./Icons/${name}.svg`
+          `!!@svgr/webpack?-svgo,+titleProp,+ref!./Icons/${name}`
         );
         ImportedIconRef.current = namedImport;
       } catch (err) {

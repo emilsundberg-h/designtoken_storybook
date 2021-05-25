@@ -1,5 +1,22 @@
 {
   "sl_tg": {
+    "heading-xxl": {
+      "font": {
+        "value": " 700 48px/60px 'SL Gothic Display'"
+      },
+      "fontFamily": {
+        "value": " 'SL Gothic Display'"
+      },
+      "fontSize": {
+        "value": "48px"
+      },
+      "lineHeight": {
+        "value": "60px"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
     "heading-xl": {
       "font": {
         "value": " 700 40px/48px 'SL Gothic Display'"
@@ -185,23 +202,6 @@
       },
       "fontWeight": {
         "value": 400
-      }
-    },
-    "heading-xxl": {
-      "font": {
-        "value": " 700 48px/60px 'SL Gothic Display'"
-      },
-      "fontFamily": {
-        "value": " 'SL Gothic Display'"
-      },
-      "fontSize": {
-        "value": "48px"
-      },
-      "lineHeight": {
-        "value": "60px"
-      },
-      "fontWeight": {
-        "value": 700
       }
     }
   }

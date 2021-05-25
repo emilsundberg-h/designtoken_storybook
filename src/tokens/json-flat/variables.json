@@ -41,7 +41,6 @@
   "sl-color-tram-tvarbanan": "#d77d00",
   "sl-color-rail-pendeltag": "#ec619f",
   "sl-color-boat": "#009ee2",
-  "sl-color-normal-plum-red": "#a7194b",
   "sl-elevation-dark-100": "0px 2px 4px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)",
   "sl-elevation-dark-200": "0px 4px 8px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)",
   "sl-elevation-dark-300": "0px 8px 16px rgba(0.054901961237192154, 0.05882352963089943, 0.05882352963089943, 0.550000011920929)",
@@ -57,6 +56,11 @@
   "sl-space-l": "40px",
   "sl-space-xl": "48px",
   "sl-space-xxl": "64px",
+  "sl-tg-heading-xxl-font": " 700 48px/60px 'SL Gothic Display'",
+  "sl-tg-heading-xxl-font-family": " 'SL Gothic Display'",
+  "sl-tg-heading-xxl-font-size": "48px",
+  "sl-tg-heading-xxl-line-height": "60px",
+  "sl-tg-heading-xxl-font-weight": 700,
   "sl-tg-heading-xl-font": " 700 40px/48px 'SL Gothic Display'",
   "sl-tg-heading-xl-font-family": " 'SL Gothic Display'",
   "sl-tg-heading-xl-font-size": "40px",
@@ -111,10 +115,5 @@
   "sl-tg-caption-font-family": " 'SL Gothic Text 2'",
   "sl-tg-caption-font-size": "14px",
   "sl-tg-caption-line-height": "16px",
-  "sl-tg-caption-font-weight": 400,
-  "sl-tg-heading-xxl-font": " 700 48px/60px 'SL Gothic Display'",
-  "sl-tg-heading-xxl-font-family": " 'SL Gothic Display'",
-  "sl-tg-heading-xxl-font-size": "48px",
-  "sl-tg-heading-xxl-line-height": "60px",
-  "sl-tg-heading-xxl-font-weight": 700
+  "sl-tg-caption-font-weight": 400
 }

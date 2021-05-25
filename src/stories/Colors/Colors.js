@@ -14,7 +14,7 @@ function Colors() {
   });
   const ColorListed = listItems.map((listItem) => {
     const style = {
-      width: "400px",
+      width: "200px",
       height: "247px",
       backgroundColor: listItem.value,
       borderRadius: "8px",

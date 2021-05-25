@@ -3,7 +3,7 @@
 // Tokens.swift
 //
 // Do not edit directly
-// Generated on Fri, 14 May 2021 08:40:14 GMT
+// Generated on Tue, 25 May 2021 10:22:40 GMT
 //
 
 
@@ -36,7 +36,6 @@ public class Tokens {
     public static let slColorNeutral700 = #20252c
     public static let slColorNeutral800 = #12151a
     public static let slColorNeutral900 = #000000
-    public static let slColorNormalPlumRed = #a7194b
     public static let slColorPrimary100 = #f3f8fc
     public static let slColorPrimary200 = #afdff9
     public static let slColorPrimary300 = #7ab4ff
