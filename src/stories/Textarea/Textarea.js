@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Button from "../Button";
 import "./Textarea.css";
-import { Primary } from "../Button.stories";
+import { Button } from "../Button";
 import Icon from "../../Icons.js";
 
 const Textarea = (props) => {
@@ -29,7 +28,7 @@ const Textarea = (props) => {
         />
       </label>
       <div className="buttonDiv">
-        <Primary primary={true} label={"Skicka"} />
+        <Button primary={true} label={"Skicka"} />
       </div>
     </div>
   );

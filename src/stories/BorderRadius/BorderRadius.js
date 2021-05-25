@@ -12,7 +12,7 @@ const BorderRadius = () => {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const BorderRadiusListed = listItems.map((listItem) => {
     const style = {
       width: "400px",
       height: "247px",
@@ -31,7 +31,7 @@ const BorderRadius = () => {
     );
   });
 
-  return <div className="HejsanBorder">{Arendal}</div>;
+  return <div className="HejsanBorder">{BorderRadiusListed}</div>;
 };
 
 export default BorderRadius;

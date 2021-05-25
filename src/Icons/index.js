@@ -59,6 +59,7 @@ export { default as Remove } from './Remove.svg';
 export { default as Restaurant } from './Restaurant.svg';
 export { default as Restroom } from './Restroom.svg';
 export { default as SL } from './SL.svg';
+export { default as SL_logotype } from './SL_logotype.svg';
 export { default as Scooter } from './Scooter.svg';
 export { default as Search } from './Search.svg';
 export { default as Select } from './Select.svg';

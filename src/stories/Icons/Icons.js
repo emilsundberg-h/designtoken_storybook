@@ -6,8 +6,7 @@ function App() {
   const paths = reqSvgs.keys();
 
   const svgs = paths.map((path) => {
-    const name = path.substring(2);
-    const displayName = path.substring(2, path.length - 4);
+    const name = path.substring(2, path.length - 4);
 
     const style = {
       display: "flex",
@@ -19,8 +18,8 @@ function App() {
 
     return (
       <div style={style}>
-        <Icon name={displayName} size={50} />
-        <p className="iconsP">{displayName}</p>
+        <Icon name={name} size={50} />
+        <p className="iconsP">{name}</p>
       </div>
     );
   });

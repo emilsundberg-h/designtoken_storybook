@@ -12,7 +12,7 @@ function Typography() {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const TypographyListed = listItems.map((listItem) => {
     const style = {
       font: listItem.value,
     };
@@ -30,7 +30,7 @@ function Typography() {
 
   return (
     <div>
-      <div className="TgFlex">{Arendal}</div>
+      <div className="TgFlex">{TypographyListed}</div>
     </div>
   );
 }

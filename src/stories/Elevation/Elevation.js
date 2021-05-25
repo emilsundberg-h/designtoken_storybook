@@ -12,7 +12,7 @@ const Elevation = () => {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const ElevationListed = listItems.map((listItem) => {
     const style = {
       width: "400px",
       height: "247px",
@@ -34,7 +34,7 @@ const Elevation = () => {
 
   return (
     <div>
-      <div className="Hejsan">{Arendal}</div>
+      <div className="Hejsan">{ElevationListed}</div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Breakpoints = () => {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const BreakpointsListed = listItems.map((listItem) => {
     const style = {
       width: listItem.value,
       height: "30px",
@@ -30,12 +30,11 @@ const Breakpoints = () => {
         <div className="BreakPointBorder">
           <p className="BreakPointName">$breakpoint-{listItem.name}</p>
         </div>
-        {/* <p className="BreakPointPx">{style.width}</p> */}
       </div>
     );
   });
 
-  return <div>{Arendal}</div>;
+  return <div>{BreakpointsListed}</div>;
 };
 
 export default Breakpoints;

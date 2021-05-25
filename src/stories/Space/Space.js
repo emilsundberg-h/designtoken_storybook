@@ -12,7 +12,7 @@ const Space = () => {
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const SpaceListed = listItems.map((listItem) => {
     const style = {
       width: listItem.value,
       height: "30px",
@@ -38,7 +38,7 @@ const Space = () => {
 
   return (
     <div>
-      <div className="Hejsan">{Arendal}</div>
+      <div className="Hejsan">{SpaceListed}</div>
     </div>
   );
 };
