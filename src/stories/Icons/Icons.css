@@ -1,24 +1,12 @@
 .iconsDiv {
-  position: relative;
-  display: inline-block;
-  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
 }
-.iconsDiv .iconsP {
-  visibility: hidden;
-  width: 120px;
-  background-color: var(--sl-color-neutral-200);
-
+.iconsP {
   text-align: center;
-  border-radius: 6px;
-
   font: var(--sl-tg-body-xs-font);
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 80%;
-  left: 50%;
-  margin-left: -60px;
 }
 
 .iconsDiv:hover .iconsP {

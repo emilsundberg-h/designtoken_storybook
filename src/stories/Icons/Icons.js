@@ -6,15 +6,28 @@ function App() {
   const paths = reqSvgs.keys();
 
   const svgs = paths.map((path) => {
-    console.log(path);
     const name = path.substring(2);
-    console.log(name);
-    return <Icon name={name} size={100} fill="#ccc" />;
+    const displayName = path.substring(2, path.length - 4);
+
+    const style = {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px",
+      width: "100px",
+    };
+
+    return (
+      <div style={style}>
+        <Icon name={displayName} size={50} />
+        <p className="iconsP">{displayName}</p>
+      </div>
+    );
   });
 
   return (
     <div>
-      <div>{svgs}</div>
+      <div className="iconsDiv">{svgs}</div>
     </div>
   );
 }
