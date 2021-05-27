@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const breakpoints = () => <Breakpoints>Breakpoints</Breakpoints>;
+export const breakpoints = () => <Breakpoints />;

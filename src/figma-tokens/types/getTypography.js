@@ -1,4 +1,4 @@
-import { getTokens, camelCase } from "../utils";
+import { getTokens } from "../utils";
 
 const getTypography = (layerName, stylesArtboard) => {
   const palette = { sl_tg: {} };

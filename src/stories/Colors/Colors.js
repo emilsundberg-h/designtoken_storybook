@@ -18,7 +18,7 @@ function Colors() {
       height: "247px",
       backgroundColor: listItem.value,
       borderRadius: "8px",
-      margin: "0 10px -15px 0",
+      margin: "0 20px -5px 0",
     };
     return (
       <div className="ColorDiv">

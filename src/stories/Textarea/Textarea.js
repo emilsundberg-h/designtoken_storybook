@@ -14,7 +14,7 @@ const Textarea = (props) => {
     <div className="Wrapper">
       <div className="HeadingDiv">
         <h2 className="Heading">Lämna gärna en kommentar</h2>
-        <Icon name="Edit" size={21} />
+        <Icon name="Corona" size={50} />
       </div>
       <label>
         <textarea

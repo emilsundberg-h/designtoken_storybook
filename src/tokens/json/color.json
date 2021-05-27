@@ -1,105 +1,105 @@
 {
   "sl_color": {
-    "primary500": {
+    "primary-500": {
       "value": "#0a47c2"
     },
-    "primary400": {
+    "primary-400": {
       "value": "#2870f0"
     },
-    "primary300": {
+    "primary-300": {
       "value": "#7ab4ff"
     },
-    "primary100": {
+    "primary-100": {
       "value": "#f3f8fc"
     },
-    "primary200": {
+    "primary-200": {
       "value": "#afdff9"
     },
-    "neutral900": {
+    "neutral-900": {
       "value": "#000000"
     },
-    "neutral800": {
+    "neutral-800": {
       "value": "#12151a"
     },
-    "neutral700": {
+    "neutral-700": {
       "value": "#20252c"
     },
-    "neutral600": {
+    "neutral-600": {
       "value": "#4c5157"
     },
-    "neutral500": {
+    "neutral-500": {
       "value": "#73777d"
     },
-    "neutral400": {
+    "neutral-400": {
       "value": "#c0c2c6"
     },
-    "neutral300": {
+    "neutral-300": {
       "value": "#d8dadc"
     },
-    "neutral200": {
+    "neutral-200": {
       "value": "#f1f2f3"
     },
-    "neutral100": {
+    "neutral-100": {
       "value": "#ffffff"
     },
-    "errorDark": {
+    "error-dark": {
       "value": "#f05555"
     },
-    "warningDark": {
+    "warning-dark": {
       "value": "#fb9e53"
     },
-    "highlightDark": {
+    "highlight-dark": {
       "value": "#f7dd5f"
     },
-    "successDark": {
+    "success-dark": {
       "value": "#1d9f64"
     },
-    "errorLight": {
+    "error-light": {
       "value": "#ce3333"
     },
-    "warningLight": {
+    "warning-light": {
       "value": "#d07432"
     },
-    "highlightLight": {
+    "highlight-light": {
       "value": "#f5cf39"
     },
-    "successLight": {
+    "success-light": {
       "value": "#197e50"
     },
-    "metroBlue": {
+    "metro-blue": {
       "value": "#0089ca"
     },
-    "metroGreen": {
+    "metro-green": {
       "value": "#179d4d"
     },
-    "metroRed": {
+    "metro-red": {
       "value": "#d71d24"
     },
-    "busLight": {
+    "bus-light": {
       "value": "#ffffff"
     },
-    "busDark": {
+    "bus-dark": {
       "value": "#000000"
     },
-    "tramLidingobanan": {
+    "tram-lidingobanan": {
       "value": "#b76020"
     },
-    "tramNockebybanan": {
+    "tram-nockebybanan": {
       "value": "#778da7"
     },
-    "tramRoslagsbanan": {
+    "tram-roslagsbanan": {
       "value": "#9f599a"
     },
-    "tramSaltsjobanan": {
+    "tram-saltsjobanan": {
       "value": "#008f93"
     },
-    "tramSparvagcity": {
+    "tram-sparvagcity": {
       "value": "#878a83"
     },
-    "tramTvarbanan": {
+    "tram-tvarbanan": {
       "value": "#d77d00"
     },
-    "railPendeltag": {
+    "rail-pendeltag": {
       "value": "#ec619f"
     },
     "boat": {
