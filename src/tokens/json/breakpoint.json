@@ -1,5 +1,5 @@
 {
-  "sl_breakpoint": {
+  "breakpoint": {
     "largeDesktops": {
       "value": "1175px"
     },

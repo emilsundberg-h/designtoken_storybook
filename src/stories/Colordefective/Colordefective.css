@@ -9,10 +9,10 @@
   margin-top: 10px;
 }
 .headingColorDefective {
-  font: var(--sl-tg-heading-l-font);
+  font: var(--typography-heading-l-font);
 }
 .subHeadingColorDefective {
-  font: var(--sl-tg-body-m-font);
+  font: var(--typography-body-m-font);
 }
 
 .normal-plum-red {

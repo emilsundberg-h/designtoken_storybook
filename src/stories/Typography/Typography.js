@@ -5,10 +5,10 @@ import data from "../../tokens/json/typography.json";
 function Typography() {
   const listItems = [];
 
-  Object.keys(data.sl_tg).forEach((key) => {
+  Object.keys(data.typography).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_tg[key]?.font.value,
+      value: data.typography[key]?.font.value,
     };
     listItems.push(listItemStyle);
   });

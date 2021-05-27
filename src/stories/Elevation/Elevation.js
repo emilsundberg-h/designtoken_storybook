@@ -5,10 +5,10 @@ import data from "../../tokens/json/elevation.json";
 const Elevation = () => {
   const listItems = [];
 
-  Object.keys(data.sl_elevation).forEach((key) => {
+  Object.keys(data.elevation).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_elevation[key].value,
+      value: data.elevation[key].value,
     };
     listItems.push(listItemStyle);
   });

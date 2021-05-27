@@ -5,10 +5,10 @@ import data from "../../tokens/json/Border-radius.json";
 const BorderRadius = () => {
   const listItems = [];
 
-  Object.keys(data.sl_borderRadius).forEach((key) => {
+  Object.keys(data.borderRadius).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_borderRadius[key].value,
+      value: data.borderRadius[key].value,
     };
     listItems.push(listItemStyle);
   });

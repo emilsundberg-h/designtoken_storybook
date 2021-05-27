@@ -5,10 +5,10 @@ import data from "../../tokens/json/color.json";
 function Colors() {
   const listItems = [];
 
-  Object.keys(data.sl_color).forEach((key) => {
+  Object.keys(data.color).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_color[key].value,
+      value: data.color[key].value,
     };
     listItems.push(listItemStyle);
   });

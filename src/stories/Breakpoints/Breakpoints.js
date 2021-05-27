@@ -5,10 +5,10 @@ import data from "../../tokens/json/breakpoint.json";
 const Breakpoints = () => {
   const listItems = [];
 
-  Object.keys(data.sl_breakpoint).forEach((key) => {
+  Object.keys(data.breakpoint).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_breakpoint[key].value,
+      value: data.breakpoint[key].value,
     };
     listItems.push(listItemStyle);
   });

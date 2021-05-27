@@ -8,11 +8,11 @@
 .TgDiv {
   width: 400px;
   height: 247px;
-  background-color: var(--sl-color-neutral-200);
-  color: var(--sl-color-neutral-800);
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
   margin: 0 10px 10px 0;
   font-size: 16px;
-  border-radius: var(--sl-border-radius-medium);
+  border-radius: var(--border-radius-medium);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -24,15 +24,15 @@
 .TgNameBorder {
   width: 140px;
   height: 20px;
-  border: 2px solid var(--sl-color-neutral-700);
-  border-radius: var(--sl-border-radius-small);
+  border: 2px solid var(--color-neutral-700);
+  border-radius: var(--border-radius-small);
   margin-left: 20px;
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: var(--sl-color-neutral-100);
+  background-color: var(--color-neutral-100);
 }
 .TgName {
-  font: var(--sl-tg-body-xs-font);
+  font: var(--typography-body-xs-font);
   margin: 0;
 }

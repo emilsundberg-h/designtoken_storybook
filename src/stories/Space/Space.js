@@ -5,10 +5,10 @@ import data from "../../tokens/json/space.json";
 const Space = () => {
   const listItems = [];
 
-  Object.keys(data.sl_space).forEach((key) => {
+  Object.keys(data.space).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_space[key].value,
+      value: data.space[key].value,
     };
     listItems.push(listItemStyle);
   });
