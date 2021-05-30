@@ -1,12 +1,12 @@
-// import React from "react";
-// import Typography from "./Typography";
+import React from "react";
+import Typography from "./Typography";
 
-// export default {
-//   title: "DesignTokens",
-//   component: Typography,
-//   args: {
-//     children: "Typography",
-//   },
-// };
+export default {
+  title: "DesignTokens",
+  component: Typography,
+  args: {
+    children: "Typography",
+  },
+};
 
-// export const typograhpy = () => <Typography />;
+export const typograhpy = () => <Typography />;
