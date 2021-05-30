@@ -17,7 +17,7 @@ https://www.figma.com/file/AAAaaaaAAAAa0a00a0AAA0/Design-tokens?node-id=0%3B7
 
 would be “AAAaaaaAAAAa0a00a0AAA0”.
 
-### watch a demo
+### Watch a demo
 
 I recorded a video demonstration of the project for my teachers. Watch it with this link. (There are some differences about the styling of the components and name of the files. )
 
