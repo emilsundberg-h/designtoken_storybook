@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 May 2021 11:05:05 GMT
+ * Generated on Sun, 30 May 2021 09:42:33 GMT
  */
 
 export const BorderRadiusSmall = "4px";
