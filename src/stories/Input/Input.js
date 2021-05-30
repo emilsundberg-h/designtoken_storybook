@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Input.css";
-import { Primary } from "../Button.stories";
-import Icon from "../../Icons.js";
+import { Primary } from "../Button/Button.stories";
 
 const Input = (props) => {
   const [value, setValue] = useState(props.name);

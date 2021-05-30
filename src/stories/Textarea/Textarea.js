@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Textarea.css";
-import { Button } from "../Button";
-import Icon from "../../Icons.js";
+import { Button } from "../Button/Button";
+import Icon from "../../iconsConvert.js";
 
 const Textarea = (props) => {
   const [value, setValue] = useState(props.name);

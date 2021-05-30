@@ -3,7 +3,7 @@ module.exports = {
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)",
     "../src/tokens/css/variables.css",
-    "../src/icons.js",
+    "../src/iconsConvert.js",
     // "../tokens/json/color.json",
   ],
   addons: [

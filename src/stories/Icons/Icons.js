@@ -1,4 +1,4 @@
-import Icon from "../../Icons.js";
+import Icon from "../../iconsConvert.js";
 import "./Icons.css";
 
 function App() {

@@ -3,7 +3,7 @@
 // TokensColor.swift
 //
 // Do not edit directly
-// Generated on Thu, 27 May 2021 11:05:05 GMT
+// Generated on Sun, 30 May 2021 06:47:47 GMT
 //
 
 import UIKit
