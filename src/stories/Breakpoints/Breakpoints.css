@@ -1,0 +1,31 @@
+.BreakPointDiv {
+  border-color: var(--color-neutral-200);
+  margin-left: 20.8px;
+}
+.BreakPointHr {
+  border: 0.5px solid var(--color-neutral-700);
+  position: relative;
+  top: 50%;
+}
+.BreakPointBorder {
+  width: 174px;
+  height: 20px;
+  border: 2px solid var(--color-neutral-700);
+  border-radius: var(--border-radius-small);
+  margin-left: 21px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--color-neutral-100);
+  position: relative;
+  bottom: 15px;
+}
+
+.BreakPointName {
+  font: var(--typography-body-xs-font);
+  position: relative;
+  bottom: 70%;
+}
+.BreakPointPx {
+  font: var(--typography-body-xs-font);
+}
