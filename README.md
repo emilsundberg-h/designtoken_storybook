@@ -2,13 +2,11 @@
 
 In this project you can create design tokens and icons in Figma and import those in this code.
 
-### 1.
+### 1. npm install
 
-npm install
+### 2. Create a file called figma.config.json.
 
-### 2.
-
-You need to create a file called figma.config.json. Set it up like `template.figma.config.json`, but replace it with the correct KEY and ID.
+Set it up like `template.figma.config.json`, but replace it with the correct KEY and ID.
 
 You’ll find the KEY and ID in the Figma document.
 
@@ -19,13 +17,13 @@ https://www.figma.com/file/AAAaaaaAAAAa0a00a0AAA0/Design-tokens?node-id=0%3B7
 
 would be “AAAaaaaAAAAa0a00a0AAA0”.
 
-### 3.
+### `run npm tokens`
 
-In the terminal - `run npm tokens`. It will provide you with a map for all design tokens.
+It will provide you with a map for all design tokens.
 
-### 4.
+### `run npm icons`
 
-In the terminal - `run npm icons`. It will provide you with a map for the svg images. To use icons in the React project `import iconsConvert.js` from src, and then use it like: `<Icon name="SL" size={50} />` The name of the icon is the same as the imported svg file.
+It will provide you with a map for the svg images. To use icons in the React project `import iconsConvert.js` from src, and then use it like: `<Icon name="SL" size={50} />` The name of the icon is the same as the imported svg file.
 
 ### Convert Design Tokens
 
