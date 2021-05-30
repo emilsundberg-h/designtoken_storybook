@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Design Tokens
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project you can create design tokens and icons in Figma and import those in this code.
 
-## Available Scripts
+### 1.
 
-In the project directory, you can run:
+npm install
 
-### `yarn start`
+### 2.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You need to create a file called figma.config.json. Set it up like `template.figma.config.json`, but replace it with the correct KEY and ID.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You’ll find the KEY and ID in the Figma document.
 
-### `yarn test`
+If you for some reason want a new Fgma Api KEY, go to Menu - Help and account - Personal settings and create a “Personal access tokens”.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you can’t find the Figma ID in your project, you’ll find it in the URL for the project. It’s the number and lettersers between the file and the project's name. For example the ID from this URL:
+https://www.figma.com/file/AAAaaaaAAAAa0a00a0AAA0/Design-tokens?node-id=0%3B7
 
-### `yarn build`
+would be “AAAaaaaAAAAa0a00a0AAA0”.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the terminal - `run npm tokens`. It will provide you with a map for all design tokens.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4.
 
-### `yarn eject`
+In the terminal - `run npm icons`. It will provide you with a map for the svg images. To use icons in the React project `import iconsConvert.js` from src, and then use it like: `<Icon name="SL" size={50} />` The name of the icon is the same as the imported svg file.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Convert Design Tokens
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The import of the design tokens uses “Style dictionary”. To set up which files you want the design tokens will be converted to, use `config.json.`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Naming Design Tokens
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Before the design tokens names started with --sl, but I couldn’t find a solution for that so it worked with the android files. If you want to change the name on the tokens, go to the folder `fimga-tokens`.
 
-## Learn More
+### Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For the import of the svgs, In the end, I used a dependency called “Figma-Api-Exporter”. This was to spare time. If you will work more with this project I recommend you to build it yourself instead of using the dependency, but be aware of the limit of API calls to Figma
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Storybook
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In the terminal - `run npm storybook` to see all imported design tokens and icons

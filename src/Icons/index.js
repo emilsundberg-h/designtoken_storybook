@@ -50,7 +50,6 @@ export { default as Phone } from './Phone.svg';
 export { default as Pin } from './Pin.svg';
 export { default as Previous } from './Previous.svg';
 export { default as Print } from './Print.svg';
-export { default as Profile } from './Profile.svg';
 export { default as Qr } from './Qr.svg';
 export { default as Reciept } from './Reciept.svg';
 export { default as Refresh } from './Refresh.svg';
@@ -78,4 +77,5 @@ export { default as Verified } from './Verified.svg';
 export { default as Volume } from './Volume.svg';
 export { default as Walk } from './Walk.svg';
 export { default as Wifi } from './Wifi.svg';
+export { default as profile } from './profile.svg';
 
