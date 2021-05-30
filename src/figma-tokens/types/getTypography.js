@@ -1,7 +1,7 @@
-import { getTokens, camelCase } from "../utils";
+import { getTokens } from "../utils";
 
 const getTypography = (layerName, stylesArtboard) => {
-  const palette = { sl_tg: {} };
+  const palette = { typography: {} };
   const decorator = (element) => {
     const { name } = element;
     const {
@@ -12,7 +12,7 @@ const getTypography = (layerName, stylesArtboard) => {
     } = element.children[0].style;
 
     const tokens = {
-      [camelCase(name)]: {
+      [name]: {
         font: {
           value: ` ${fontWeight} ${fontSize}px/${Math.floor(
             lineHeightPx
@@ -26,7 +26,7 @@ const getTypography = (layerName, stylesArtboard) => {
         fontWeight: { value: fontWeight },
       },
     };
-    Object.assign(palette.sl_tg, tokens);
+    Object.assign(palette.typography, tokens);
   };
 
   return getTokens(layerName, stylesArtboard, palette, decorator);

@@ -1,5 +1,5 @@
 {
-  "sl_color": {
+  "color": {
     "primary500": {
       "value": "#0a47c2"
     },
@@ -9,11 +9,14 @@
     "primary300": {
       "value": "#7ab4ff"
     },
-    "primary200": {
-      "value": "#afdff9"
+    "richard": {
+      "value": "#2f4b70"
     },
     "primary100": {
       "value": "#f3f8fc"
+    },
+    "primary200": {
+      "value": "#afdff9"
     },
     "neutral900": {
       "value": "#000000"

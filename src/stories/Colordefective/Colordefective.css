@@ -1,0 +1,138 @@
+.flexNormal {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexDeuteranopia {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+.headingColorDefective {
+  font: var(--typography-heading-l-font);
+}
+.subHeadingColorDefective {
+  font: var(--typography-body-m-font);
+}
+
+.normal-plum-red {
+  width: 100px;
+  height: 100px;
+  background-color: #a7194b;
+}
+.normal-red {
+  width: 100px;
+  height: 100px;
+  background-color: #fe2712;
+}
+.normal-red-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #fd5308;
+}
+.normal-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #fb9902;
+}
+.normal-light-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #fabc02;
+}
+.normal-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: #fefe33;
+}
+.normal-light-lime {
+  width: 100px;
+  height: 100px;
+  background-color: #d0ea2b;
+}
+.normal-green {
+  width: 100px;
+  height: 100px;
+  background-color: #66b032;
+}
+.normal-ocean-blue {
+  width: 100px;
+  height: 100px;
+  background-color: #0391ce;
+}
+.normal-yves-klein-blue {
+  width: 100px;
+  height: 100px;
+  background-color: #0247fe;
+}
+.normal-dark-purple {
+  width: 100px;
+  height: 100px;
+  background-color: #3d01a4;
+}
+.normal-purple {
+  width: 100px;
+  height: 100px;
+  background-color: #8601af;
+}
+
+.deuteranopia-plum-red {
+  width: 100px;
+  height: 100px;
+  background-color: #5f5b47;
+}
+.deuteranopia-red {
+  width: 100px;
+  height: 100px;
+  background-color: #988a00;
+}
+.deuteranopia-red-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #a39500;
+}
+.deuteranopia-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #c5b400;
+}
+.deuteranopia-light-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #dcc900;
+}
+.deuteranopia-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: #fff836;
+}
+.deuteranopia-light-lime {
+  width: 100px;
+  height: 100px;
+  background-color: #f2df32;
+}
+.deuteranopia-green {
+  width: 100px;
+  height: 100px;
+  background-color: #aa9e38;
+}
+.deuteranopia-ocean-blue {
+  width: 100px;
+  height: 100px;
+  background-color: #6b84ce;
+}
+.deuteranopia--yves-klein-blue {
+  width: 100px;
+  height: 100px;
+  background-color: #0057fe;
+}
+.deuteranopiadark-purple {
+  width: 100px;
+  height: 100px;
+  background-color: #0031a3;
+}
+.deuteranopia-purple {
+  width: 100px;
+  height: 100px;
+  background-color: #1350ae;
+}

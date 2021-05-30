@@ -5,14 +5,14 @@ import data from "../../tokens/json/elevation.json";
 const Elevation = () => {
   const listItems = [];
 
-  Object.keys(data.sl_elevation).forEach((key) => {
+  Object.keys(data.elevation).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_elevation[key].value,
+      value: data.elevation[key].value,
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const ElevationListed = listItems.map((listItem) => {
     const style = {
       width: "400px",
       height: "247px",
@@ -34,7 +34,7 @@ const Elevation = () => {
 
   return (
     <div>
-      <div className="Hejsan">{Arendal}</div>
+      <div className="Hejsan">{ElevationListed}</div>
     </div>
   );
 };

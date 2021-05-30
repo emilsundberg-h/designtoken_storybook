@@ -5,14 +5,14 @@ import data from "../../tokens/json/typography.json";
 function Typography() {
   const listItems = [];
 
-  Object.keys(data.sl_tg).forEach((key) => {
+  Object.keys(data.typography).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_tg[key]?.font.value,
+      value: data.typography[key]?.font.value,
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const TypographyListed = listItems.map((listItem) => {
     const style = {
       font: listItem.value,
     };
@@ -22,7 +22,7 @@ function Typography() {
           {listItem.name}
         </p>
         <div className="TgNameBorder">
-          <p className="TgName">$space-{listItem.name}</p>
+          <p className="TgName">$space-{listItem.name}-font</p>
         </div>
       </div>
     );
@@ -30,7 +30,7 @@ function Typography() {
 
   return (
     <div>
-      <div className="TgFlex">{Arendal}</div>
+      <div className="TgFlex">{TypographyListed}</div>
     </div>
   );
 }

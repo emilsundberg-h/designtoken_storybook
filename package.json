@@ -1,19 +1,21 @@
 {
-  "name": "testing_tokens",
-  "version": "0.1.0",
+  "name": "sl_designtokens",
+  "version": "1.0.0",
+  "author": "Emil Sundberg <emil.a.sundberg@gmail.com>",
   "private": true,
   "dependencies": {
+    "@storybook/addon-a11y": "^6.2.9",
+    "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "postcss": "^8.2.13",
-    "postcss-cli": "^8.3.1",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-import": "^14.0.1",
+    "create-index": "^2.6.0",
+    "figma-api-exporter": "0.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "babel-loader": "^8.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +27,8 @@
     "build-storybook": "build-storybook -s public",
     "tokens": "npm run tokens:api && npm run tokens:build",
     "tokens:api": "bin/figma-tokens",
-    "tokens:build": "style-dictionary build"
+    "tokens:build": "style-dictionary build",
+    "icons": "node FigmaIcons.js"
   },
   "eslintConfig": {
     "extends": [

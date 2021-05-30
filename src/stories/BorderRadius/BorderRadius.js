@@ -5,14 +5,14 @@ import data from "../../tokens/json/Border-radius.json";
 const BorderRadius = () => {
   const listItems = [];
 
-  Object.keys(data.sl_borderRadius).forEach((key) => {
+  Object.keys(data.borderRadius).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_borderRadius[key].value,
+      value: data.borderRadius[key].value,
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const BorderRadiusListed = listItems.map((listItem) => {
     const style = {
       width: "400px",
       height: "247px",
@@ -31,7 +31,7 @@ const BorderRadius = () => {
     );
   });
 
-  return <div className="HejsanBorder">{Arendal}</div>;
+  return <div className="HejsanBorder">{BorderRadiusListed}</div>;
 };
 
 export default BorderRadius;

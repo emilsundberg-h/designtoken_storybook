@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const elevation = () => <Elevation>Shadows</Elevation>;
+export const elevation = () => <Elevation />;

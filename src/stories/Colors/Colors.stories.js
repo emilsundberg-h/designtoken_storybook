@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const colors = () => <Colors>Colors</Colors>;
+export const colors = () => <Colors />;

@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const borderRadius = () => <BorderRadius>BorderRadius</BorderRadius>;
+export const borderRadius = () => <BorderRadius />;

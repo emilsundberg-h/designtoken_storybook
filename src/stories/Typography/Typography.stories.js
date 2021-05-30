@@ -9,4 +9,4 @@ export default {
   },
 };
 
-export const typograhpy = () => <Typography>Typograhpy</Typography>;
+export const typograhpy = () => <Typography />;

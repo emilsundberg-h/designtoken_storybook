@@ -5,26 +5,28 @@ import data from "../../tokens/json/color.json";
 function Colors() {
   const listItems = [];
 
-  Object.keys(data.sl_color).forEach((key) => {
+  Object.keys(data.color).forEach((key) => {
     const listItemStyle = {
       name: key,
-      value: data.sl_color[key].value,
+      value: data.color[key].value,
     };
     listItems.push(listItemStyle);
   });
-  const Arendal = listItems.map((listItem) => {
+  const ColorListed = listItems.map((listItem) => {
     const style = {
-      width: "400px",
+      width: "200px",
       height: "247px",
       backgroundColor: listItem.value,
       borderRadius: "8px",
-      margin: "0 10px -15px 0",
+      margin: "0 20px -5px 0",
     };
     return (
       <div className="ColorDiv">
         <div style={style}></div>
-        <div className="ColorNameBorder">
-          <p className="ColorName">$color-{listItem.name}</p>
+        <div className="ColorNameBorder" aria-label={listItem.value}>
+          <p className="ColorName" aria-label={listItem.name}>
+            $color-{listItem.name}
+          </p>
         </div>
       </div>
     );
@@ -32,7 +34,7 @@ function Colors() {
 
   return (
     <div>
-      <div className="ColorFlex">{Arendal}</div>
+      <div className="ColorFlex">{ColorListed}</div>
     </div>
   );
 }

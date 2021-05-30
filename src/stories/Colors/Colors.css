@@ -9,18 +9,18 @@
 .ColorNameBorder {
   width: 155px;
   height: 20px;
-  border: 2px solid var(--sl-color-neutral-700);
-  border-radius: var(--sl-border-radius-small);
+  border: 2px solid var(--color-neutral-700);
+  border-radius: var(--border-radius-small);
   margin-left: 20px;
   position: relative;
   bottom: 30px;
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: var(--sl-color-neutral-100);
+  background-color: var(--color-neutral-100);
 }
 
 .ColorName {
-  font: var(--sl-tg-body-xs-font);
+  font: var(--typography-body-xs-font);
   margin: 0;
 }
